@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-03T10:16:03 IST" name="MultiBrowser" finished-at="2025-04-03T10:16:36 IST" duration-ms="32946">
+    <groups>
+    </groups>
+    <test started-at="2025-04-03T10:16:03 IST" name="ChromeTest" finished-at="2025-04-03T10:16:17 IST" duration-ms="13246">
+      <class name="testscript.AddCategoryPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AddCategoryPageTest@3e694b3f]" started-at="2025-04-03T10:16:03 IST" name="beforeMethod" finished-at="2025-04-03T10:16:11 IST" duration-ms="7248" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanAddaNewCategory()[pri:0, instance:testscript.AddCategoryPageTest@3e694b3f]" started-at="2025-04-03T10:16:11 IST" name="verifyUserCanAddaNewCategory" finished-at="2025-04-03T10:16:17 IST" duration-ms="5901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddaNewCategory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AddCategoryPageTest@3e694b3f]" started-at="2025-04-03T10:16:17 IST" name="afterMethod" finished-at="2025-04-03T10:16:17 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAddaNewCategory status=SUCCESS method=AddCategoryPageTest.verifyUserCanAddaNewCategory()[pri:0, instance:testscript.AddCategoryPageTest@3e694b3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.AddCategoryPageTest -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2025-04-03T10:16:03 IST" name="EdgeTest" finished-at="2025-04-03T10:16:36 IST" duration-ms="32946">
+      <class name="testscript.AddCategoryPageTest">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testscript.AddCategoryPageTest@2362f559]" started-at="2025-04-03T10:16:03 IST" name="beforeMethod" finished-at="2025-04-03T10:16:31 IST" duration-ms="27532" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="verifyUserCanAddaNewCategory()[pri:0, instance:testscript.AddCategoryPageTest@2362f559]" started-at="2025-04-03T10:16:31 IST" name="verifyUserCanAddaNewCategory" finished-at="2025-04-03T10:16:36 IST" duration-ms="5327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserCanAddaNewCategory -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testscript.AddCategoryPageTest@2362f559]" started-at="2025-04-03T10:16:36 IST" name="afterMethod" finished-at="2025-04-03T10:16:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUserCanAddaNewCategory status=SUCCESS method=AddCategoryPageTest.verifyUserCanAddaNewCategory()[pri:0, instance:testscript.AddCategoryPageTest@2362f559] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testscript.AddCategoryPageTest -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- MultiBrowser -->
+</testng-results>

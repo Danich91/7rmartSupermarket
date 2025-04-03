@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 2, Time elapsed: 28.487 s <<< FAILURE! - in TestSuite
+testscript.LoginPageTest.verifyUsercanLoginwithWrongUsernameandCorrectpwd  Time elapsed: 0.99 s  <<< FAILURE!
+java.lang.AssertionError: Dashboard is not loaded expected [Login | 7rmart supermarket] but found [Dashboard | 7rmart supermarket]
+	at testscript.LoginPageTest.verifyUsercanLoginwithWrongUsernameandCorrectpwd(LoginPageTest.java:55)
+
+testscript.LoginPageTest.verifyUsercanLoginwithWrongUsernameandWrongpwd  Time elapsed: 1.038 s  <<< FAILURE!
+java.lang.AssertionError: Dashboard is not loaded expected [Login | 7rmart supermarket] but found [Dashboard | 7rmart supermarket]
+	at testscript.LoginPageTest.verifyUsercanLoginwithWrongUsernameandWrongpwd(LoginPageTest.java:69)
+
